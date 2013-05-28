@@ -1,0 +1,22 @@
+PODS:
+  - AFNetworking (0.9.1)
+  - BButton (2.0.0)
+  - Facebook-iOS-SDK (3.5.0)
+  - MLUIColorAdditions (1.0.0)
+  - TSMessages (0.9.1):
+    - MLUIColorAdditions
+
+DEPENDENCIES:
+  - AFNetworking (= 0.9.1)
+  - BButton
+  - Facebook-iOS-SDK
+  - TSMessages
+
+SPEC CHECKSUMS:
+  AFNetworking: 081ec3c1f4768c87ae79d69a96fcc9479e232e81
+  BButton: cb3b6dbbb7d56c646f14c406be40fbc7c950295d
+  Facebook-iOS-SDK: df5c04b1927e1a535733192857f8e5b9774407d1
+  MLUIColorAdditions: c128da8c87b724cdc6c9a1b4cfe8832ca62b8d2a
+  TSMessages: 916e168ec96b90fbe2756bc4e28c555a2abc83fc
+
+COCOAPODS: 0.18.1
