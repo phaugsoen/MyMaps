@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66C6D6008E574F8B9ECCC11C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D962F36EA9554187A28B6002 /* libPods.a */; };
 		CB1B6E451729A2E4001CEDE6 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1B6E441729A2E4001CEDE6 /* Default-Portrait~ipad.png */; };
 		CB1B6E471729A2E8001CEDE6 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1B6E461729A2E8001CEDE6 /* Default-Portrait@2x~ipad.png */; };
 		CB1B6E491729A2FB001CEDE6 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1B6E481729A2FB001CEDE6 /* Default-Landscape@2x~ipad.png */; };
@@ -26,6 +25,7 @@
 		CB81D2B1171EA51500C6D968 /* M3GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB81D2AF171EA51500C6D968 /* M3GuideViewController.xib */; };
 		CB81D2B7171EC1B500C6D968 /* PVSibirienOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D2B4171EBFFE00C6D968 /* PVSibirienOverlay.m */; };
 		CB81D2B8171EC1B800C6D968 /* PVSibirienMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D2B6171EBFFE00C6D968 /* PVSibirienMapOverlayView.m */; };
+		CB8BC1EE1756305C00E64FFA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8BC1ED1756305C00E64FFA /* Parse.framework */; };
 		CB8EE6C3171884DD00C2FA6F /* M3ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8EE6C1171884DD00C2FA6F /* M3ImageViewController.m */; };
 		CB8EE6C4171884DD00C2FA6F /* M3ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8EE6C2171884DD00C2FA6F /* M3ImageViewController.xib */; };
 		CB959FA5171D791D002B1C91 /* M3RefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB959FA3171D791D002B1C91 /* M3RefViewController.m */; };
@@ -45,7 +45,6 @@
 		CBC70C2017173437002D3188 /* M3MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC70C1E17173437002D3188 /* M3MenuViewController.xib */; };
 		CBC70C24171736DE002D3188 /* M3ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC70C22171736DE002D3188 /* M3ListViewController.m */; };
 		CBC70C25171736DE002D3188 /* M3ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC70C23171736DE002D3188 /* M3ListViewController.xib */; };
-		CBC70C271717370B002D3188 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC70C261717370B002D3188 /* Parse.framework */; };
 		CBEC04B0172549C000965348 /* M3Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEC04AF172549C000965348 /* M3Annotation.m */; };
 		CBEC04B317254A3400965348 /* M3AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEC04B217254A3400965348 /* M3AnnotationView.m */; };
 		CBEC04B6172552C800965348 /* SVPulsingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEC04B5172552C800965348 /* SVPulsingAnnotationView.m */; };
@@ -117,6 +116,7 @@
 		CB81D2B4171EBFFE00C6D968 /* PVSibirienOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVSibirienOverlay.m; sourceTree = "<group>"; };
 		CB81D2B5171EBFFE00C6D968 /* PVSibirienMapOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVSibirienMapOverlayView.h; sourceTree = "<group>"; };
 		CB81D2B6171EBFFE00C6D968 /* PVSibirienMapOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVSibirienMapOverlayView.m; sourceTree = "<group>"; };
+		CB8BC1ED1756305C00E64FFA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		CB8EE6C0171884DD00C2FA6F /* M3ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3ImageViewController.h; sourceTree = "<group>"; };
 		CB8EE6C1171884DD00C2FA6F /* M3ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3ImageViewController.m; sourceTree = "<group>"; };
 		CB8EE6C2171884DD00C2FA6F /* M3ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = M3ImageViewController.xib; sourceTree = "<group>"; };
@@ -145,7 +145,6 @@
 		CBC70C21171736DE002D3188 /* M3ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3ListViewController.h; sourceTree = "<group>"; };
 		CBC70C22171736DE002D3188 /* M3ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3ListViewController.m; sourceTree = "<group>"; };
 		CBC70C23171736DE002D3188 /* M3ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = M3ListViewController.xib; sourceTree = "<group>"; };
-		CBC70C261717370B002D3188 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		CBEC04AE172549C000965348 /* M3Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3Annotation.h; sourceTree = "<group>"; };
 		CBEC04AF172549C000965348 /* M3Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3Annotation.m; sourceTree = "<group>"; };
 		CBEC04B117254A3400965348 /* M3AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3AnnotationView.h; sourceTree = "<group>"; };
@@ -200,7 +199,6 @@
 		CBF26C741718385E004F0FF8 /* M3ImageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3ImageDetailViewController.h; sourceTree = "<group>"; };
 		CBF26C751718385E004F0FF8 /* M3ImageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3ImageDetailViewController.m; sourceTree = "<group>"; };
 		CBF4668217183FC90063C9CD /* M3MapRefViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = M3MapRefViewController.xib; sourceTree = "<group>"; };
-		D962F36EA9554187A28B6002 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,9 +225,8 @@
 				CBC70BFA1717337C002D3188 /* CoreGraphics.framework in Frameworks */,
 				CBC70BF61717337C002D3188 /* UIKit.framework in Frameworks */,
 				CBC70BF81717337C002D3188 /* Foundation.framework in Frameworks */,
-				CBC70C271717370B002D3188 /* Parse.framework in Frameworks */,
 				CBF26C6B1718344D004F0FF8 /* NewRelicAgent.framework in Frameworks */,
-				66C6D6008E574F8B9ECCC11C /* libPods.a in Frameworks */,
+				CB8BC1EE1756305C00E64FFA /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +266,7 @@
 		CBC70BF41717337C002D3188 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB8BC1ED1756305C00E64FFA /* Parse.framework */,
 				CBF26C6A1718344D004F0FF8 /* NewRelicAgent.framework */,
 				CBF26C3C1718322A004F0FF8 /* MobileCoreServices.framework */,
 				CBF26C3A1718321E004F0FF8 /* libsqlite3.0.dylib */,
@@ -286,11 +284,9 @@
 				CBF26C29171831E9004F0FF8 /* Social.framework */,
 				CBF26C2A171831E9004F0FF8 /* StoreKit.framework */,
 				CBF26C2B171831E9004F0FF8 /* SystemConfiguration.framework */,
-				CBC70C261717370B002D3188 /* Parse.framework */,
 				CBC70BF51717337C002D3188 /* UIKit.framework */,
 				CBC70BF71717337C002D3188 /* Foundation.framework */,
 				CBC70BF91717337C002D3188 /* CoreGraphics.framework */,
-				D962F36EA9554187A28B6002 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
