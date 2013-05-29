@@ -3,7 +3,7 @@
 //  Mappy2
 //
 //  Created by Per Haugsöen on 4/4/13.
-//  Copyright (c) 2013 Haugsoen. All rights reserved.
+//  Copyright (c) 2013 Haugsoen. All rights reserved. foo
 //
 
 #import <UIKit/UIKit.h>
